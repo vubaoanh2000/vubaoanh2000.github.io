@@ -9,6 +9,8 @@ h1 {
     font-family: 'Pacifico';
     text-shadow: 1px 1px white;
     color: rgb(52, 44, 56);
+    text-align: center;
+    font-size: 50px;
 }
 
 h2 {
@@ -78,4 +80,29 @@ body{
         border: 2px solid rgb(206, 191, 216);}
         .table-class td{         
         border: 2px solid rgb(206, 191, 216);} 
-    }
+}
+
+.table-class td {
+    color:#FFFFFF;
+    text-align:left;
+    padding: 8px;
+    border: 2px solid rgb(160, 171, 174);
+} 
+    
+.table-class th{
+    color:#FFFFFF;
+    text-align:left;
+    padding: 8px;
+    border: 2px solid rgb(160, 171, 174);
+}
+
+.table-class a {
+    color: #bc9191;
+}
+
+.flex-container-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(117, 91, 112);
+}
+
