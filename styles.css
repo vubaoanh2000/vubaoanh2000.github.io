@@ -1,3 +1,5 @@
+/* Style for all texts in the body */
+
 body {  
     background-color:rgb(206, 191, 216);      
     font-style:normal;
@@ -6,7 +8,9 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
-   
+ 
+/* Style for headers */
+
 h1 {
     font-family:'Pacifico';
     text-shadow:1px 1px white;
@@ -20,9 +24,13 @@ h2 {
     color: rgb(44, 25, 53);
 }
 
+/* style for embedded element */
+
 iframe {
     align-items: center;
 }
+
+/* style for button */ 
 
 .button-1 {
   background-color: #81597c;
@@ -91,6 +99,8 @@ iframe{
         border: 2px solid rgb(206, 191, 216);} 
 }
 
+/* style for table */ 
+
 .table-class td {
     color:#FFFFFF;
     text-align:left;
@@ -129,6 +139,8 @@ iframe{
     font-style:italic;
     text-decoration: underline;
 }
+
+/* style for lists */ 
 
 .list {
     font-size:18px;
